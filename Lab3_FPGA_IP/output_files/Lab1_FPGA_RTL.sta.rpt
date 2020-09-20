@@ -1,5 +1,5 @@
 Timing Analyzer report for Lab1_FPGA_RTL
-Sun Sep 06 15:26:25 2020
+Sat Sep 19 22:49:47 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -102,29 +102,31 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.50        ;
+; Average used               ; 1.87        ;
 ; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  10.4%      ;
-;     Processor 3            ;  10.3%      ;
-;     Processor 4            ;  10.3%      ;
-;     Processor 5            ;   9.6%      ;
-;     Processor 6            ;   9.6%      ;
+;     Processor 2            ;  17.9%      ;
+;     Processor 3            ;  17.7%      ;
+;     Processor 4            ;  17.6%      ;
+;     Processor 5            ;  16.8%      ;
+;     Processor 6            ;  16.7%      ;
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------+
-; SDC File List                                                                                   ;
-+-------------------------------------------------------------+--------+--------------------------+
-; SDC File Path                                               ; Status ; Read at                  ;
-+-------------------------------------------------------------+--------+--------------------------+
-; niosLab2/synthesis/submodules/altera_reset_controller.sdc   ; OK     ; Sun Sep 06 15:26:13 2020 ;
-; niosLab2/synthesis/submodules/niosLab2_nios2_gen2_0_cpu.sdc ; OK     ; Sun Sep 06 15:26:13 2020 ;
-; SDC1.sdc                                                    ; OK     ; Sun Sep 06 15:26:13 2020 ;
-; Lab1_FPGA_RTL.sdc                                           ; OK     ; Sun Sep 06 15:26:13 2020 ;
-+-------------------------------------------------------------+--------+--------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; SDC File List                                                                                                                                              ;
++------------------------------------------------------------------------------------------------------------------------+--------+--------------------------+
+; SDC File Path                                                                                                          ; Status ; Read at                  ;
++------------------------------------------------------------------------------------------------------------------------+--------+--------------------------+
+; niosLab2/synthesis/submodules/altera_reset_controller.sdc                                                              ; OK     ; Sat Sep 19 22:49:39 2020 ;
+; niosLab2/synthesis/submodules/niosLab2_nios2_gen2_0_cpu.sdc                                                            ; OK     ; Sat Sep 19 22:49:39 2020 ;
+; SDC1.sdc                                                                                                               ; OK     ; Sat Sep 19 22:49:39 2020 ;
+; Lab1_FPGA_RTL.sdc                                                                                                      ; OK     ; Sat Sep 19 22:49:39 2020 ;
+; c:/users/guipl/desktop/insper/embed/soc-linux-emb/lab3_fpga_ip/db/ip/nioslab2/submodules/altera_reset_controller.sdc   ; OK     ; Sat Sep 19 22:49:39 2020 ;
+; c:/users/guipl/desktop/insper/embed/soc-linux-emb/lab3_fpga_ip/db/ip/nioslab2/submodules/nioslab2_nios2_gen2_0_cpu.sdc ; OK     ; Sat Sep 19 22:49:39 2020 ;
++------------------------------------------------------------------------------------------------------------------------+--------+--------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -142,8 +144,8 @@ refer to the applicable agreement for further details.
 +------------+-----------------+---------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name          ; Note ;
 +------------+-----------------+---------------------+------+
-; 110.95 MHz ; 110.95 MHz      ; altera_reserved_tck ;      ;
-; 117.11 MHz ; 117.11 MHz      ; fpga_clk_50         ;      ;
+; 107.01 MHz ; 107.01 MHz      ; altera_reserved_tck ;      ;
+; 146.07 MHz ; 146.07 MHz      ; fpga_clk_50         ;      ;
 +------------+-----------------+---------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -159,8 +161,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; fpga_clk_50         ; 11.461 ; 0.000         ;
-; altera_reserved_tck ; 12.160 ; 0.000         ;
+; altera_reserved_tck ; 11.994 ; 0.000         ;
+; fpga_clk_50         ; 13.154 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -169,8 +171,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 0.126 ; 0.000         ;
-; fpga_clk_50         ; 0.311 ; 0.000         ;
+; altera_reserved_tck ; 0.123 ; 0.000         ;
+; fpga_clk_50         ; 0.309 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -179,8 +181,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 14.433 ; 0.000         ;
-; fpga_clk_50         ; 15.122 ; 0.000         ;
+; altera_reserved_tck ; 14.202 ; 0.000         ;
+; fpga_clk_50         ; 16.054 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -189,8 +191,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; fpga_clk_50         ; 0.527 ; 0.000         ;
-; altera_reserved_tck ; 1.032 ; 0.000         ;
+; fpga_clk_50         ; 0.683 ; 0.000         ;
+; altera_reserved_tck ; 0.874 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -199,8 +201,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+--------------------+
 ; Clock               ; Slack  ; End Point TNS      ;
 +---------------------+--------+--------------------+
-; fpga_clk_50         ; 8.848  ; 0.000              ;
-; altera_reserved_tck ; 15.848 ; 0.000              ;
+; fpga_clk_50         ; 8.850  ; 0.000              ;
+; altera_reserved_tck ; 15.725 ; 0.000              ;
 +---------------------+--------+--------------------+
 
 
@@ -213,7 +215,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 8
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.375
-Worst Case Available Settling Time: 18.749 ns
+Worst Case Available Settling Time: 18.408 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
@@ -227,8 +229,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +------------+-----------------+---------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name          ; Note ;
 +------------+-----------------+---------------------+------+
-; 112.75 MHz ; 112.75 MHz      ; altera_reserved_tck ;      ;
-; 121.05 MHz ; 121.05 MHz      ; fpga_clk_50         ;      ;
+; 107.7 MHz  ; 107.7 MHz       ; altera_reserved_tck ;      ;
+; 150.26 MHz ; 150.26 MHz      ; fpga_clk_50         ;      ;
 +------------+-----------------+---------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -238,8 +240,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; fpga_clk_50         ; 11.739 ; 0.000         ;
-; altera_reserved_tck ; 12.232 ; 0.000         ;
+; altera_reserved_tck ; 12.024 ; 0.000         ;
+; fpga_clk_50         ; 13.345 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -249,7 +251,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
 ; altera_reserved_tck ; 0.112 ; 0.000         ;
-; fpga_clk_50         ; 0.271 ; 0.000         ;
+; fpga_clk_50         ; 0.291 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -258,8 +260,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 14.526 ; 0.000         ;
-; fpga_clk_50         ; 15.292 ; 0.000         ;
+; altera_reserved_tck ; 14.346 ; 0.000         ;
+; fpga_clk_50         ; 16.218 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -268,8 +270,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; fpga_clk_50         ; 0.470 ; 0.000         ;
-; altera_reserved_tck ; 0.961 ; 0.000         ;
+; fpga_clk_50         ; 0.615 ; 0.000         ;
+; altera_reserved_tck ; 0.754 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -278,8 +280,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+-------------------+
 ; Clock               ; Slack  ; End Point TNS     ;
 +---------------------+--------+-------------------+
-; fpga_clk_50         ; 8.798  ; 0.000             ;
-; altera_reserved_tck ; 15.850 ; 0.000             ;
+; fpga_clk_50         ; 8.799  ; 0.000             ;
+; altera_reserved_tck ; 15.718 ; 0.000             ;
 +---------------------+--------+-------------------+
 
 
@@ -292,7 +294,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 8
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.375
-Worst Case Available Settling Time: 18.769 ns
+Worst Case Available Settling Time: 18.454 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
@@ -306,8 +308,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 14.192 ; 0.000         ;
-; fpga_clk_50         ; 14.197 ; 0.000         ;
+; altera_reserved_tck ; 14.127 ; 0.000         ;
+; fpga_clk_50         ; 15.407 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -316,7 +318,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 0.035 ; 0.000         ;
+; altera_reserved_tck ; 0.026 ; 0.000         ;
 ; fpga_clk_50         ; 0.179 ; 0.000         ;
 +---------------------+-------+---------------+
 
@@ -326,8 +328,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 15.436 ; 0.000         ;
-; fpga_clk_50         ; 16.619 ; 0.000         ;
+; altera_reserved_tck ; 15.444 ; 0.000         ;
+; fpga_clk_50         ; 17.247 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -336,8 +338,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; fpga_clk_50         ; 0.292 ; 0.000         ;
-; altera_reserved_tck ; 0.558 ; 0.000         ;
+; altera_reserved_tck ; 0.381 ; 0.000         ;
+; fpga_clk_50         ; 0.386 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -346,8 +348,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+--------------------+
 ; Clock               ; Slack  ; End Point TNS      ;
 +---------------------+--------+--------------------+
-; fpga_clk_50         ; 8.795  ; 0.000              ;
-; altera_reserved_tck ; 15.822 ; 0.000              ;
+; fpga_clk_50         ; 8.797  ; 0.000              ;
+; altera_reserved_tck ; 15.724 ; 0.000              ;
 +---------------------+--------+--------------------+
 
 
@@ -360,7 +362,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 8
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.375
-Worst Case Available Settling Time: 19.211 ns
+Worst Case Available Settling Time: 18.946 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
@@ -374,8 +376,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 14.464 ; 0.000         ;
-; fpga_clk_50         ; 14.932 ; 0.000         ;
+; altera_reserved_tck ; 14.386 ; 0.000         ;
+; fpga_clk_50         ; 15.948 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -384,8 +386,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 0.021 ; 0.000         ;
-; fpga_clk_50         ; 0.160 ; 0.000         ;
+; altera_reserved_tck ; 0.012 ; 0.000         ;
+; fpga_clk_50         ; 0.170 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -394,8 +396,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 15.610 ; 0.000         ;
-; fpga_clk_50         ; 17.015 ; 0.000         ;
+; altera_reserved_tck ; 15.615 ; 0.000         ;
+; fpga_clk_50         ; 17.585 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -404,8 +406,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; fpga_clk_50         ; 0.236 ; 0.000         ;
-; altera_reserved_tck ; 0.490 ; 0.000         ;
+; altera_reserved_tck ; 0.290 ; 0.000         ;
+; fpga_clk_50         ; 0.321 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -414,8 +416,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+-------------------+
 ; Clock               ; Slack  ; End Point TNS     ;
 +---------------------+--------+-------------------+
-; fpga_clk_50         ; 8.788  ; 0.000             ;
-; altera_reserved_tck ; 15.830 ; 0.000             ;
+; fpga_clk_50         ; 8.792  ; 0.000             ;
+; altera_reserved_tck ; 15.748 ; 0.000             ;
 +---------------------+--------+-------------------+
 
 
@@ -428,7 +430,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 8
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.375
-Worst Case Available Settling Time: 19.262 ns
+Worst Case Available Settling Time: 19.036 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
@@ -442,9 +444,9 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +----------------------+--------+-------+----------+---------+---------------------+
 ; Clock                ; Setup  ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
 +----------------------+--------+-------+----------+---------+---------------------+
-; Worst-case Slack     ; 11.461 ; 0.021 ; 14.433   ; 0.236   ; 8.788               ;
-;  altera_reserved_tck ; 12.160 ; 0.021 ; 14.433   ; 0.490   ; 15.822              ;
-;  fpga_clk_50         ; 11.461 ; 0.160 ; 15.122   ; 0.236   ; 8.788               ;
+; Worst-case Slack     ; 11.994 ; 0.012 ; 14.202   ; 0.290   ; 8.792               ;
+;  altera_reserved_tck ; 11.994 ; 0.012 ; 14.202   ; 0.290   ; 15.718              ;
+;  fpga_clk_50         ; 13.154 ; 0.170 ; 16.054   ; 0.321   ; 8.792               ;
 ; Design-wide TNS      ; 0.0    ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
 ;  altera_reserved_tck ; 0.000  ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
 ;  fpga_clk_50         ; 0.000  ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
@@ -460,8 +462,6 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; fpga_led_pio[1]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; fpga_led_pio[2]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; fpga_led_pio[3]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
-; fpga_led_pio[4]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
-; fpga_led_pio[5]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 +---------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
 
@@ -487,8 +487,6 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; fpga_led_pio[1]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
 ; fpga_led_pio[2]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
 ; fpga_led_pio[3]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
-; fpga_led_pio[4]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
-; fpga_led_pio[5]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.6e-07 V                    ; 2.41 V              ; -0.0463 V           ; 0.201 V                              ; 0.131 V                              ; 4.61e-10 s                  ; 4.53e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.6e-07 V                   ; 2.41 V             ; -0.0463 V          ; 0.201 V                             ; 0.131 V                             ; 4.61e-10 s                 ; 4.53e-10 s                 ; No                        ; Yes                       ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.2e-07 V                    ; 2.41 V              ; -0.0623 V           ; 0.154 V                              ; 0.113 V                              ; 4.52e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.2e-07 V                   ; 2.41 V             ; -0.0623 V          ; 0.154 V                             ; 0.113 V                             ; 4.52e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -502,8 +500,6 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; fpga_led_pio[1]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
 ; fpga_led_pio[2]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
 ; fpga_led_pio[3]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
-; fpga_led_pio[4]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
-; fpga_led_pio[5]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.96e-05 V                   ; 2.38 V              ; -0.0306 V           ; 0.23 V                               ; 0.206 V                              ; 4.83e-10 s                  ; 5.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.96e-05 V                  ; 2.38 V             ; -0.0306 V          ; 0.23 V                              ; 0.206 V                             ; 4.83e-10 s                 ; 5.01e-10 s                 ; No                        ; Yes                       ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.5e-05 V                    ; 2.37 V              ; -0.0421 V           ; 0.168 V                              ; 0.143 V                              ; 4.71e-10 s                  ; 4.57e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.5e-05 V                   ; 2.37 V             ; -0.0421 V          ; 0.168 V                             ; 0.143 V                             ; 4.71e-10 s                 ; 4.57e-10 s                 ; No                        ; Yes                       ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -517,8 +513,6 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; fpga_led_pio[1]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
 ; fpga_led_pio[2]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
 ; fpga_led_pio[3]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
-; fpga_led_pio[4]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
-; fpga_led_pio[5]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.79e-06 V                   ; 2.9 V               ; -0.122 V            ; 0.313 V                              ; 0.277 V                              ; 2.78e-10 s                  ; 2.7e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 3.79e-06 V                  ; 2.9 V              ; -0.122 V           ; 0.313 V                             ; 0.277 V                             ; 2.78e-10 s                 ; 2.7e-10 s                  ; No                        ; No                        ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -532,8 +526,6 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; fpga_led_pio[1]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
 ; fpga_led_pio[2]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
 ; fpga_led_pio[3]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
-; fpga_led_pio[4]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
-; fpga_led_pio[5]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000219 V                   ; 2.85 V              ; -0.0938 V           ; 0.339 V                              ; 0.156 V                              ; 3.08e-10 s                  ; 4.29e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000219 V                  ; 2.85 V             ; -0.0938 V          ; 0.339 V                             ; 0.156 V                             ; 3.08e-10 s                 ; 4.29e-10 s                 ; No                        ; No                        ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -543,10 +535,10 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+---------------------+------------+------------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths   ; FR Paths   ; RF Paths ; FF Paths ;
 +---------------------+---------------------+------------+------------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 1538       ; 0          ; 42       ; 4        ;
+; altera_reserved_tck ; altera_reserved_tck ; 1502       ; 0          ; 38       ; 3        ;
 ; fpga_clk_50         ; altera_reserved_tck ; false path ; 0          ; 0        ; 0        ;
 ; altera_reserved_tck ; fpga_clk_50         ; false path ; false path ; 0        ; 0        ;
-; fpga_clk_50         ; fpga_clk_50         ; 18725      ; 0          ; 0        ; 0        ;
+; fpga_clk_50         ; fpga_clk_50         ; 18337      ; 0          ; 0        ; 0        ;
 +---------------------+---------------------+------------+------------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -556,10 +548,10 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+------------+------------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths   ; FR Paths   ; RF Paths ; FF Paths ;
 +---------------------+---------------------+------------+------------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 1538       ; 0          ; 42       ; 4        ;
+; altera_reserved_tck ; altera_reserved_tck ; 1502       ; 0          ; 38       ; 3        ;
 ; fpga_clk_50         ; altera_reserved_tck ; false path ; 0          ; 0        ; 0        ;
 ; altera_reserved_tck ; fpga_clk_50         ; false path ; false path ; 0        ; 0        ;
-; fpga_clk_50         ; fpga_clk_50         ; 18725      ; 0          ; 0        ; 0        ;
+; fpga_clk_50         ; fpga_clk_50         ; 18337      ; 0          ; 0        ; 0        ;
 +---------------------+---------------------+------------+------------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -569,8 +561,8 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+----------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 72       ; 0        ; 3        ; 0        ;
-; fpga_clk_50         ; fpga_clk_50         ; 531      ; 0        ; 0        ; 0        ;
+; altera_reserved_tck ; altera_reserved_tck ; 70       ; 0        ; 2        ; 0        ;
+; fpga_clk_50         ; fpga_clk_50         ; 523      ; 0        ; 0        ; 0        ;
 +---------------------+---------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -580,8 +572,8 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+----------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 72       ; 0        ; 3        ; 0        ;
-; fpga_clk_50         ; fpga_clk_50         ; 531      ; 0        ; 0        ; 0        ;
+; altera_reserved_tck ; altera_reserved_tck ; 70       ; 0        ; 2        ; 0        ;
+; fpga_clk_50         ; fpga_clk_50         ; 523      ; 0        ; 0        ; 0        ;
 +---------------------+---------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -607,8 +599,8 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Unconstrained Clocks            ; 0     ; 0    ;
 ; Unconstrained Input Ports       ; 2     ; 2    ;
 ; Unconstrained Input Port Paths  ; 58    ; 58   ;
-; Unconstrained Output Ports      ; 7     ; 7    ;
-; Unconstrained Output Port Paths ; 11    ; 11   ;
+; Unconstrained Output Ports      ; 5     ; 5    ;
+; Unconstrained Output Port Paths ; 9     ; 9    ;
 +---------------------------------+-------+------+
 
 
@@ -642,8 +634,6 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; fpga_led_pio[1]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; fpga_led_pio[2]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; fpga_led_pio[3]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; fpga_led_pio[4]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; fpga_led_pio[5]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +---------------------+---------------------------------------------------------------------------------------+
 
 
@@ -667,8 +657,6 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; fpga_led_pio[1]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; fpga_led_pio[2]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; fpga_led_pio[3]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; fpga_led_pio[4]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; fpga_led_pio[5]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +---------------------+---------------------------------------------------------------------------------------+
 
 
@@ -678,7 +666,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Sep 06 15:26:09 2020
+    Info: Processing started: Sat Sep 19 22:49:36 2020
 Info: Command: quartus_sta Lab1_FPGA_RTL -c Lab1_FPGA_RTL
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -724,37 +712,39 @@ Info (332104): Reading SDC File: 'niosLab2/synthesis/submodules/niosLab2_nios2_g
 Info (332104): Reading SDC File: 'SDC1.sdc'
 Info (332104): Reading SDC File: 'Lab1_FPGA_RTL.sdc'
 Warning (332043): Overwriting existing clock: fpga_clk_50
+Info (332104): Reading SDC File: 'c:/users/guipl/desktop/insper/embed/soc-linux-emb/lab3_fpga_ip/db/ip/nioslab2/submodules/altera_reset_controller.sdc'
+Info (332104): Reading SDC File: 'c:/users/guipl/desktop/insper/embed/soc-linux-emb/lab3_fpga_ip/db/ip/nioslab2/submodules/nioslab2_nios2_gen2_0_cpu.sdc'
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): From: u0|nios2_gen2_0|cpu|the_niosLab2_nios2_gen2_0_cpu_nios2_oci|the_niosLab2_nios2_gen2_0_cpu_nios2_ocimem|niosLab2_nios2_gen2_0_cpu_ociram_sp_ram|the_altsyncram|auto_generated|ram_block1a8|clk0  to: niosLab2:u0|niosLab2_nios2_gen2_0:nios2_gen2_0|niosLab2_nios2_gen2_0_cpu:cpu|niosLab2_nios2_gen2_0_cpu_nios2_oci:the_niosLab2_nios2_gen2_0_cpu_nios2_oci|niosLab2_nios2_gen2_0_cpu_nios2_ocimem:the_niosLab2_nios2_gen2_0_cpu_nios2_ocimem|niosLab2_nios2_gen2_0_cpu_ociram_sp_ram_module:niosLab2_nios2_gen2_0_cpu_ociram_sp_ram|altsyncram:the_altsyncram|altsyncram_qid1:auto_generated|ram_block1a8~CLOCK1_ENABLE1_0
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 85C Model
-Info (332146): Worst-case setup slack is 11.461
+Info (332146): Worst-case setup slack is 11.994
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    11.461               0.000 fpga_clk_50 
-    Info (332119):    12.160               0.000 altera_reserved_tck 
-Info (332146): Worst-case hold slack is 0.126
+    Info (332119):    11.994               0.000 altera_reserved_tck 
+    Info (332119):    13.154               0.000 fpga_clk_50 
+Info (332146): Worst-case hold slack is 0.123
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.126               0.000 altera_reserved_tck 
-    Info (332119):     0.311               0.000 fpga_clk_50 
-Info (332146): Worst-case recovery slack is 14.433
+    Info (332119):     0.123               0.000 altera_reserved_tck 
+    Info (332119):     0.309               0.000 fpga_clk_50 
+Info (332146): Worst-case recovery slack is 14.202
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    14.433               0.000 altera_reserved_tck 
-    Info (332119):    15.122               0.000 fpga_clk_50 
-Info (332146): Worst-case removal slack is 0.527
+    Info (332119):    14.202               0.000 altera_reserved_tck 
+    Info (332119):    16.054               0.000 fpga_clk_50 
+Info (332146): Worst-case removal slack is 0.683
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.527               0.000 fpga_clk_50 
-    Info (332119):     1.032               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 8.848
+    Info (332119):     0.683               0.000 fpga_clk_50 
+    Info (332119):     0.874               0.000 altera_reserved_tck 
+Info (332146): Worst-case minimum pulse width slack is 8.850
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.848               0.000 fpga_clk_50 
-    Info (332119):    15.848               0.000 altera_reserved_tck 
+    Info (332119):     8.850               0.000 fpga_clk_50 
+    Info (332119):    15.725               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 8 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -762,7 +752,7 @@ Info (332114): Report Metastability: Found 8 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 8
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.375
-    Info (332114): Worst Case Available Settling Time: 18.749 ns
+    Info (332114): Worst Case Available Settling Time: 18.408 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
@@ -774,31 +764,31 @@ Info (334004): Delay annotation completed successfully
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): From: u0|nios2_gen2_0|cpu|the_niosLab2_nios2_gen2_0_cpu_nios2_oci|the_niosLab2_nios2_gen2_0_cpu_nios2_ocimem|niosLab2_nios2_gen2_0_cpu_ociram_sp_ram|the_altsyncram|auto_generated|ram_block1a8|clk0  to: niosLab2:u0|niosLab2_nios2_gen2_0:nios2_gen2_0|niosLab2_nios2_gen2_0_cpu:cpu|niosLab2_nios2_gen2_0_cpu_nios2_oci:the_niosLab2_nios2_gen2_0_cpu_nios2_oci|niosLab2_nios2_gen2_0_cpu_nios2_ocimem:the_niosLab2_nios2_gen2_0_cpu_nios2_ocimem|niosLab2_nios2_gen2_0_cpu_ociram_sp_ram_module:niosLab2_nios2_gen2_0_cpu_ociram_sp_ram|altsyncram:the_altsyncram|altsyncram_qid1:auto_generated|ram_block1a8~CLOCK1_ENABLE1_0
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 11.739
+Info (332146): Worst-case setup slack is 12.024
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    11.739               0.000 fpga_clk_50 
-    Info (332119):    12.232               0.000 altera_reserved_tck 
+    Info (332119):    12.024               0.000 altera_reserved_tck 
+    Info (332119):    13.345               0.000 fpga_clk_50 
 Info (332146): Worst-case hold slack is 0.112
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.112               0.000 altera_reserved_tck 
-    Info (332119):     0.271               0.000 fpga_clk_50 
-Info (332146): Worst-case recovery slack is 14.526
+    Info (332119):     0.291               0.000 fpga_clk_50 
+Info (332146): Worst-case recovery slack is 14.346
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    14.526               0.000 altera_reserved_tck 
-    Info (332119):    15.292               0.000 fpga_clk_50 
-Info (332146): Worst-case removal slack is 0.470
+    Info (332119):    14.346               0.000 altera_reserved_tck 
+    Info (332119):    16.218               0.000 fpga_clk_50 
+Info (332146): Worst-case removal slack is 0.615
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.470               0.000 fpga_clk_50 
-    Info (332119):     0.961               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 8.798
+    Info (332119):     0.615               0.000 fpga_clk_50 
+    Info (332119):     0.754               0.000 altera_reserved_tck 
+Info (332146): Worst-case minimum pulse width slack is 8.799
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.798               0.000 fpga_clk_50 
-    Info (332119):    15.850               0.000 altera_reserved_tck 
+    Info (332119):     8.799               0.000 fpga_clk_50 
+    Info (332119):    15.718               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 8 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -806,7 +796,7 @@ Info (332114): Report Metastability: Found 8 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 8
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.375
-    Info (332114): Worst Case Available Settling Time: 18.769 ns
+    Info (332114): Worst Case Available Settling Time: 18.454 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
@@ -818,31 +808,31 @@ Info (334004): Delay annotation completed successfully
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): From: u0|nios2_gen2_0|cpu|the_niosLab2_nios2_gen2_0_cpu_nios2_oci|the_niosLab2_nios2_gen2_0_cpu_nios2_ocimem|niosLab2_nios2_gen2_0_cpu_ociram_sp_ram|the_altsyncram|auto_generated|ram_block1a8|clk0  to: niosLab2:u0|niosLab2_nios2_gen2_0:nios2_gen2_0|niosLab2_nios2_gen2_0_cpu:cpu|niosLab2_nios2_gen2_0_cpu_nios2_oci:the_niosLab2_nios2_gen2_0_cpu_nios2_oci|niosLab2_nios2_gen2_0_cpu_nios2_ocimem:the_niosLab2_nios2_gen2_0_cpu_nios2_ocimem|niosLab2_nios2_gen2_0_cpu_ociram_sp_ram_module:niosLab2_nios2_gen2_0_cpu_ociram_sp_ram|altsyncram:the_altsyncram|altsyncram_qid1:auto_generated|ram_block1a8~CLOCK1_ENABLE1_0
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 14.192
+Info (332146): Worst-case setup slack is 14.127
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    14.192               0.000 altera_reserved_tck 
-    Info (332119):    14.197               0.000 fpga_clk_50 
-Info (332146): Worst-case hold slack is 0.035
+    Info (332119):    14.127               0.000 altera_reserved_tck 
+    Info (332119):    15.407               0.000 fpga_clk_50 
+Info (332146): Worst-case hold slack is 0.026
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.035               0.000 altera_reserved_tck 
+    Info (332119):     0.026               0.000 altera_reserved_tck 
     Info (332119):     0.179               0.000 fpga_clk_50 
-Info (332146): Worst-case recovery slack is 15.436
+Info (332146): Worst-case recovery slack is 15.444
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    15.436               0.000 altera_reserved_tck 
-    Info (332119):    16.619               0.000 fpga_clk_50 
-Info (332146): Worst-case removal slack is 0.292
+    Info (332119):    15.444               0.000 altera_reserved_tck 
+    Info (332119):    17.247               0.000 fpga_clk_50 
+Info (332146): Worst-case removal slack is 0.381
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.292               0.000 fpga_clk_50 
-    Info (332119):     0.558               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 8.795
+    Info (332119):     0.381               0.000 altera_reserved_tck 
+    Info (332119):     0.386               0.000 fpga_clk_50 
+Info (332146): Worst-case minimum pulse width slack is 8.797
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.795               0.000 fpga_clk_50 
-    Info (332119):    15.822               0.000 altera_reserved_tck 
+    Info (332119):     8.797               0.000 fpga_clk_50 
+    Info (332119):    15.724               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 8 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -850,7 +840,7 @@ Info (332114): Report Metastability: Found 8 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 8
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.375
-    Info (332114): Worst Case Available Settling Time: 19.211 ns
+    Info (332114): Worst Case Available Settling Time: 18.946 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
@@ -860,31 +850,31 @@ Info: Analyzing Fast 1100mV 0C Model
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): From: u0|nios2_gen2_0|cpu|the_niosLab2_nios2_gen2_0_cpu_nios2_oci|the_niosLab2_nios2_gen2_0_cpu_nios2_ocimem|niosLab2_nios2_gen2_0_cpu_ociram_sp_ram|the_altsyncram|auto_generated|ram_block1a8|clk0  to: niosLab2:u0|niosLab2_nios2_gen2_0:nios2_gen2_0|niosLab2_nios2_gen2_0_cpu:cpu|niosLab2_nios2_gen2_0_cpu_nios2_oci:the_niosLab2_nios2_gen2_0_cpu_nios2_oci|niosLab2_nios2_gen2_0_cpu_nios2_ocimem:the_niosLab2_nios2_gen2_0_cpu_nios2_ocimem|niosLab2_nios2_gen2_0_cpu_ociram_sp_ram_module:niosLab2_nios2_gen2_0_cpu_ociram_sp_ram|altsyncram:the_altsyncram|altsyncram_qid1:auto_generated|ram_block1a8~CLOCK1_ENABLE1_0
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 14.464
+Info (332146): Worst-case setup slack is 14.386
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    14.464               0.000 altera_reserved_tck 
-    Info (332119):    14.932               0.000 fpga_clk_50 
-Info (332146): Worst-case hold slack is 0.021
+    Info (332119):    14.386               0.000 altera_reserved_tck 
+    Info (332119):    15.948               0.000 fpga_clk_50 
+Info (332146): Worst-case hold slack is 0.012
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.021               0.000 altera_reserved_tck 
-    Info (332119):     0.160               0.000 fpga_clk_50 
-Info (332146): Worst-case recovery slack is 15.610
+    Info (332119):     0.012               0.000 altera_reserved_tck 
+    Info (332119):     0.170               0.000 fpga_clk_50 
+Info (332146): Worst-case recovery slack is 15.615
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    15.610               0.000 altera_reserved_tck 
-    Info (332119):    17.015               0.000 fpga_clk_50 
-Info (332146): Worst-case removal slack is 0.236
+    Info (332119):    15.615               0.000 altera_reserved_tck 
+    Info (332119):    17.585               0.000 fpga_clk_50 
+Info (332146): Worst-case removal slack is 0.290
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.236               0.000 fpga_clk_50 
-    Info (332119):     0.490               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 8.788
+    Info (332119):     0.290               0.000 altera_reserved_tck 
+    Info (332119):     0.321               0.000 fpga_clk_50 
+Info (332146): Worst-case minimum pulse width slack is 8.792
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.788               0.000 fpga_clk_50 
-    Info (332119):    15.830               0.000 altera_reserved_tck 
+    Info (332119):     8.792               0.000 fpga_clk_50 
+    Info (332119):    15.748               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 8 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -892,7 +882,7 @@ Info (332114): Report Metastability: Found 8 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 8
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.375
-    Info (332114): Worst Case Available Settling Time: 19.262 ns
+    Info (332114): Worst Case Available Settling Time: 19.036 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
@@ -901,9 +891,9 @@ Info (332114): Report Metastability: Found 8 synchronizer chains.
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 5229 megabytes
-    Info: Processing ended: Sun Sep 06 15:26:25 2020
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Peak virtual memory: 5217 megabytes
+    Info: Processing ended: Sat Sep 19 22:49:47 2020
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:18
 
 

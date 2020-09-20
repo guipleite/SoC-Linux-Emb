@@ -1,5 +1,5 @@
 Flow report for Lab1_FPGA_RTL
-Sun Sep 06 15:26:24 2020
+Sat Sep 19 22:49:47 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,16 +40,16 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Sep 06 15:26:07 2020       ;
+; Flow Status                     ; Successful - Sat Sep 19 22:49:34 2020       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; Lab1_FPGA_RTL                               ;
-; Top-level Entity Name           ; LAB2_FPGA_NIOS                              ;
+; Top-level Entity Name           ; TopLevel                                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSXFC6D6F31C6                              ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 681 / 41,910 ( 2 % )                        ;
-; Total registers                 ; 947                                         ;
-; Total pins                      ; 7 / 499 ( 1 % )                             ;
+; Logic utilization (in ALMs)     ; 672 / 41,910 ( 2 % )                        ;
+; Total registers                 ; 933                                         ;
+; Total pins                      ; 5 / 499 ( 1 % )                             ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 273,408 / 5,662,720 ( 5 % )                 ;
 ; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
@@ -67,35 +67,36 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/06/2020 15:23:18 ;
+; Start date & time ; 09/19/2020 22:46:35 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Lab1_FPGA_RTL       ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                               ;
-+-------------------------------------+------------------------------------------------------------+---------------+----------------+------------+
-; Assignment Name                     ; Value                                                      ; Default Value ; Entity Name    ; Section Id ;
-+-------------------------------------+------------------------------------------------------------+---------------+----------------+------------+
-; COMPILER_SIGNATURE_ID               ; 10995770589196.159941659829452                             ; --            ; --             ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                                         ; --            ; --             ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                                          ; --            ; --             ; --         ;
-; MISC_FILE                           ; niosLab2/synthesis/../niosLab2.cmp                         ; --            ; --             ; --         ;
-; MISC_FILE                           ; niosLab2/synthesis/../../niosLab2.qsys                     ; --            ; --             ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)                     ; --            ; LAB2_FPGA_NIOS ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                     ; --            ; LAB2_FPGA_NIOS ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                     ; --            ; LAB2_FPGA_NIOS ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                        ; --            ; --             ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                      ; --            ; --             ; --         ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                                               ; --            ; --             ; --         ;
-; SLD_FILE                            ; niosLab2/synthesis/niosLab2.regmap                         ; --            ; --             ; --         ;
-; SLD_FILE                            ; niosLab2/synthesis/niosLab2.debuginfo                      ; --            ; --             ; --         ;
-; SLD_INFO                            ; QSYS_NAME niosLab2 HAS_SOPCINFO 1 GENERATION_ID 1599084342 ; --            ; niosLab2       ; --         ;
-; SOPCINFO_FILE                       ; niosLab2/synthesis/../../niosLab2.sopcinfo                 ; --            ; --             ; --         ;
-; SYNTHESIS_ONLY_QIP                  ; On                                                         ; --            ; --             ; --         ;
-; TOP_LEVEL_ENTITY                    ; LAB2_FPGA_NIOS                                             ; Lab1_FPGA_RTL ; --             ; --         ;
-+-------------------------------------+------------------------------------------------------------+---------------+----------------+------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                   ;
++-------------------------------------+-------------------------------------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                                             ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+-------------------------------------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 10995770589192.160056639422032                                    ; --            ; --          ; --         ;
+; IP_SEARCH_PATHS                     ; c:\users\guipl\desktop\insper\embed\soc-linux-emb\lab3_fpga_ip\ip ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                 ; --            ; --          ; --         ;
+; MISC_FILE                           ; niosLab2/synthesis/../niosLab2.cmp                                ; --            ; --          ; --         ;
+; MISC_FILE                           ; niosLab2/synthesis/../../niosLab2.qsys                            ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                            ; --            ; TopLevel    ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                            ; --            ; TopLevel    ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                            ; --            ; TopLevel    ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                               ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                             ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                      ; --            ; --          ; --         ;
+; SLD_FILE                            ; niosLab2/synthesis/niosLab2.regmap                                ; --            ; --          ; --         ;
+; SLD_FILE                            ; niosLab2/synthesis/niosLab2.debuginfo                             ; --            ; --          ; --         ;
+; SLD_INFO                            ; QSYS_NAME niosLab2 HAS_SOPCINFO 1 GENERATION_ID 1600565934        ; --            ; niosLab2    ; --         ;
+; SOPCINFO_FILE                       ; niosLab2/synthesis/../../niosLab2.sopcinfo                        ; --            ; --          ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                                ; --            ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; TopLevel                                                          ; Lab1_FPGA_RTL ; --          ; --         ;
++-------------------------------------+-------------------------------------------------------------------+---------------+-------------+------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -103,11 +104,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:41     ; 1.0                     ; 4973 MB             ; 00:01:01                           ;
-; Fitter               ; 00:01:49     ; 1.1                     ; 6825 MB             ; 00:05:42                           ;
-; Assembler            ; 00:00:12     ; 1.0                     ; 4874 MB             ; 00:00:10                           ;
-; Timing Analyzer      ; 00:00:15     ; 1.5                     ; 5229 MB             ; 00:00:20                           ;
-; Total                ; 00:02:57     ; --                      ; --                  ; 00:07:13                           ;
+; Analysis & Synthesis ; 00:01:07     ; 1.0                     ; 4971 MB             ; 00:01:38                           ;
+; Fitter               ; 00:01:36     ; 1.1                     ; 6804 MB             ; 00:04:59                           ;
+; Assembler            ; 00:00:10     ; 1.0                     ; 4855 MB             ; 00:00:09                           ;
+; Timing Analyzer      ; 00:00:11     ; 1.9                     ; 5217 MB             ; 00:00:18                           ;
+; Total                ; 00:03:04     ; --                      ; --                  ; 00:07:04                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

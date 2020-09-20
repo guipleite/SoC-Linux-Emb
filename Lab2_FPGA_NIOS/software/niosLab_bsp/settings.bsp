@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Sep 6, 2020 3:36:05 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1599417365455</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Sep 19, 2020 9:47:40 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1600562860898</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\guipl\Desktop\INSPER\embed\SoC-Linux-Emb\Lab2_FPGA_NIOS\software\niosLab_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\niosLab2.sopcinfo</SopcDesignFile>

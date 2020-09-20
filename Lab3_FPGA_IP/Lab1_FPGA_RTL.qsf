@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSXFC6D6F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY LAB2_FPGA_NIOS
+set_global_assignment -name TOP_LEVEL_ENTITY TopLevel
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:19:52  AUGUST 30, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -54,14 +54,19 @@ set_location_assignment PIN_AC23 -to fpga_led_pio[3]
 set_location_assignment PIN_AD24 -to fpga_led_pio[2]
 set_location_assignment PIN_AG25 -to fpga_led_pio[1]
 set_location_assignment PIN_AF25 -to fpga_led_pio[0]
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name IP_SEARCH_PATHS "c:\\users\\guipl\\desktop\\insper\\embed\\soc-linux-emb\\lab3_fpga_ip\\ip"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE niosLab2/simulation/niosLab2.vhd
 set_global_assignment -name QIP_FILE niosLab2/synthesis/niosLab2.qip
 set_global_assignment -name VHDL_FILE Lab1_FPGA_RTL.vhd
 set_global_assignment -name SDC_FILE SDC1.sdc
 set_global_assignment -name SDC_FILE Lab1_FPGA_RTL.sdc
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name VHDL_FILE LAB2_FPGA_NIOS.vhd
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE Lab3_FPGA_IP.vhd
+set_global_assignment -name VHDL_FILE TopLevel.vhd
+set_global_assignment -name QSYS_FILE niosLab2.qsys
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
