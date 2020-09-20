@@ -1390,7 +1390,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_wait.c">
@@ -1405,7 +1408,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="alt_sys_init.c">
@@ -1420,7 +1426,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="drivers/src/altera_avalon_jtag_uart_ioctl.c">
@@ -1435,7 +1444,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_printf.c">
@@ -1450,7 +1462,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_ioctl.c">
@@ -1465,7 +1480,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_fcntl.c">
@@ -1480,7 +1498,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="drivers/src/altera_avalon_jtag_uart_read.c">
@@ -1495,7 +1516,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_instruction_exception_entry.c">
@@ -1510,7 +1534,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_irq_register.c">
@@ -1525,7 +1552,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_uncached_malloc.c">
@@ -1540,7 +1570,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_usleep.c">
@@ -1555,7 +1588,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_dev_llist_insert.c">
@@ -1570,7 +1606,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_fd_unlock.c">
@@ -1585,7 +1624,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_log_printf.c">
@@ -1600,7 +1642,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_environ.c">
@@ -1615,7 +1660,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_icache_flush.c">
@@ -1630,7 +1678,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_execve.c">
@@ -1645,7 +1696,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_remap_cached.c">
@@ -1660,7 +1714,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_remap_uncached.c">
@@ -1675,7 +1732,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_stat.c">
@@ -1690,7 +1750,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="drivers/src/altera_avalon_jtag_uart_fd.c">
@@ -1705,7 +1768,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_dcache_flush_all.c">
@@ -1720,7 +1786,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_errno.c">
@@ -1735,7 +1804,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_exit.c">
@@ -1750,7 +1822,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_icache_flush_all.c">
@@ -1765,7 +1840,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_alarm_start.c">
@@ -1780,7 +1858,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_dcache_flush_no_writeback.c">
@@ -1795,7 +1876,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_get_fd.c">
@@ -1810,7 +1894,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_dev.c">
@@ -1825,7 +1912,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_putchar.c">
@@ -1840,7 +1930,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_tick.c">
@@ -1855,7 +1948,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_close.c">
@@ -1870,7 +1966,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_link.c">
@@ -1885,7 +1984,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_io_redirect.c">
@@ -1900,7 +2002,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_irq_handler.c">
@@ -1915,7 +2020,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_write.c">
@@ -1930,7 +2038,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_iic.c">
@@ -1945,7 +2056,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_ecc_fatal_exception.c">
@@ -1960,7 +2074,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_fork.c">
@@ -1975,7 +2092,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_dma_rxchan_open.c">
@@ -1990,7 +2110,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_settod.c">
@@ -2005,7 +2128,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_find_file.c">
@@ -2020,7 +2146,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_dcache_flush.c">
@@ -2035,7 +2164,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_dma_txchan_open.c">
@@ -2050,7 +2182,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_read.c">
@@ -2065,7 +2200,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_busy_sleep.c">
@@ -2080,7 +2218,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_fstat.c">
@@ -2095,7 +2236,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_do_ctors.c">
@@ -2110,7 +2254,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_getchar.c">
@@ -2125,7 +2272,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_sbrk.c">
@@ -2140,7 +2290,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_fs_reg.c">
@@ -2155,7 +2308,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_malloc_lock.c">
@@ -2170,7 +2326,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_rename.c">
@@ -2185,7 +2344,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_flash_dev.c">
@@ -2200,7 +2362,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_instruction_exception_register.c">
@@ -2215,7 +2380,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_open.c">
@@ -2230,7 +2398,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_find_dev.c">
@@ -2245,7 +2416,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_gettod.c">
@@ -2260,7 +2434,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="drivers/src/altera_avalon_jtag_uart_write.c">
@@ -2275,7 +2452,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_isatty.c">
@@ -2290,7 +2470,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_lseek.c">
@@ -2305,7 +2488,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_putcharbuf.c">
@@ -2320,7 +2506,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_env_lock.c">
@@ -2335,7 +2524,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_fd_lock.c">
@@ -2350,7 +2542,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="drivers/src/altera_avalon_jtag_uart_init.c">
@@ -2365,7 +2560,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_release_fd.c">
@@ -2380,7 +2578,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_do_dtors.c">
@@ -2395,7 +2596,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_getpid.c">
@@ -2410,7 +2614,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_unlink.c">
@@ -2425,7 +2632,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_load.c">
@@ -2440,7 +2650,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_putstr.c">
@@ -2455,7 +2668,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_times.c">
@@ -2470,7 +2686,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_kill.c">
@@ -2485,7 +2704,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_main.c">
@@ -2500,7 +2722,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="hello_world.c">
@@ -2515,7 +2740,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/altera_nios2_gen2_irq.c">
@@ -2530,7 +2758,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_iic_isr_register.c">
@@ -2545,7 +2776,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_gmon.c">
@@ -2560,7 +2794,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 					<resource project-relative-path="HAL/src/alt_irq_vars.c">
@@ -2575,7 +2812,10 @@
 						</entry>
 						<entry kind="macro" name="ALTERA_AVALON_JTAG_UART_SMALL" value=""/>
 						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SIM_OPTIMIZE" value=""/>
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="ALT_USE_SMALL_DRIVERS" value=""/>
+						<entry kind="macro" name="SMALL_C_LIB" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
 				</language>
