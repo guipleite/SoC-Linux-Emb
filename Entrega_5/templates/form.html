@@ -5,8 +5,12 @@
     <div class="col">
       <h1>SoC - Linux</h1>
       <h3>Controlling an LED on Cyclone V</h3>
-
-      <button type="submit" class="btn btn-primary">Turn On / Off the LED</button>
+      <form action='/toggle_led' method="POST">
+        <button type="submit" name="on_off" class="btn btn-primary">Turn On / Off the LED</button>
+      </form>
+      <form action='/check_sw' method="POST">
+        <button type="submit" name="sw_update" class="btn btn-primary">Refresh</button>
+      </form>
       <hr>
     </div>
   </div>
