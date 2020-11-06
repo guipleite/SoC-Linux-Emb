@@ -2,26 +2,20 @@
 # python3 -m flask run -h 169.254.0.13
 
 from flask import Flask, render_template, request
+import subprocess
+import os
+
+
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
     return render_template("form.html")
 
-led_on = True
-
 @app.route('/toggle_led', methods = ['GET', 'POST'])
 def toggle_led():
     if request.method == 'POST':
-        global led_on
-        
-        if led_on :
-            led_on = False
-        
-        else:
-            led_on = True
-
-        print("LED State: ",led_on)
+        subprocess.run(['/work/blink_led'])
 
     return render_template("form.html")
 
