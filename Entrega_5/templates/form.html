@@ -11,6 +11,11 @@
       <form action='/check_sw' method="POST">
         <button type="submit" name="sw_update" class="btn btn-primary">Refresh</button>
       </form>
+      <div class="flashes">
+        {% for message in get_flashed_messages() %}
+          {{ message|safe}}
+        {% endfor %}
+      </div>
       <hr>
     </div>
   </div>
