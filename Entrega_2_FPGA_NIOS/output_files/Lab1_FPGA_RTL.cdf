@@ -1,4 +1,4 @@
-/* Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition */
+/* Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition */
 JedecChain;
 	FileRevision(JESD32A);
 	DefaultMfr(6E);
@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSXFC6D6F31) Path("C:/Users/guipl/Desktop/INSPER/embed/SoC-Linux-Emb/Lab2_FPGA_NIOS/output_files/") File("Lab1_FPGA_RTL.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSXFC6D6F31) Path("/home/labarqcomp/Desktop/Embarcados2020/Entrega_2_FPGA_NIOS/output_files/") File("Lab1_FPGA_RTL.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

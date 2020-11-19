@@ -2,164 +2,84 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1100mV 85C Model Setup 'fpga_clk_50'
-Slack : 11.461
-TNS   : 0.000
-
 Type  : Slow 1100mV 85C Model Setup 'altera_reserved_tck'
-Slack : 12.160
+Slack : 12.454
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'altera_reserved_tck'
-Slack : 0.126
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'fpga_clk_50'
-Slack : 0.311
+Slack : 0.122
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Recovery 'altera_reserved_tck'
-Slack : 14.433
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Recovery 'fpga_clk_50'
-Slack : 15.122
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Removal 'fpga_clk_50'
-Slack : 0.527
+Slack : 15.337
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Removal 'altera_reserved_tck'
-Slack : 1.032
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'fpga_clk_50'
-Slack : 8.848
+Slack : 0.870
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.848
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Setup 'fpga_clk_50'
-Slack : 11.739
+Slack : 15.828
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Setup 'altera_reserved_tck'
-Slack : 12.232
+Slack : 12.527
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'altera_reserved_tck'
-Slack : 0.112
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Hold 'fpga_clk_50'
-Slack : 0.271
+Slack : 0.107
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Recovery 'altera_reserved_tck'
-Slack : 14.526
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Recovery 'fpga_clk_50'
-Slack : 15.292
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Removal 'fpga_clk_50'
-Slack : 0.470
+Slack : 15.446
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Removal 'altera_reserved_tck'
-Slack : 0.961
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'fpga_clk_50'
-Slack : 8.798
+Slack : 0.807
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.850
+Slack : 15.829
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Setup 'altera_reserved_tck'
-Slack : 14.192
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Setup 'fpga_clk_50'
-Slack : 14.197
+Slack : 14.345
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'altera_reserved_tck'
-Slack : 0.035
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'fpga_clk_50'
-Slack : 0.179
+Slack : 0.029
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Recovery 'altera_reserved_tck'
-Slack : 15.436
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Recovery 'fpga_clk_50'
-Slack : 16.619
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Removal 'fpga_clk_50'
-Slack : 0.292
+Slack : 16.169
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Removal 'altera_reserved_tck'
-Slack : 0.558
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'fpga_clk_50'
-Slack : 8.795
+Slack : 0.413
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.822
+Slack : 15.806
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Setup 'altera_reserved_tck'
-Slack : 14.464
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Setup 'fpga_clk_50'
-Slack : 14.932
+Slack : 14.599
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'altera_reserved_tck'
-Slack : 0.021
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'fpga_clk_50'
-Slack : 0.160
+Slack : 0.013
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Recovery 'altera_reserved_tck'
-Slack : 15.610
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Recovery 'fpga_clk_50'
-Slack : 17.015
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Removal 'fpga_clk_50'
-Slack : 0.236
+Slack : 16.245
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Removal 'altera_reserved_tck'
-Slack : 0.490
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'fpga_clk_50'
-Slack : 8.788
+Slack : 0.359
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.830
+Slack : 15.816
 TNS   : 0.000
 
 ------------------------------------------------------------

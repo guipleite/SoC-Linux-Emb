@@ -38,6 +38,13 @@ refer to the applicable agreement for further details.
 		(line (pt 0 192)(pt 128 192)(line_width 1))
 	)
 	(port
+		(pt 0 232)
+		(input)
+		(text "switches_export[3..0]" (rect 0 0 83 12)(font "Arial" (font_size 8)))
+		(text "switches_export[3..0]" (rect 4 221 130 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 128 232)(line_width 3))
+	)
+	(port
 		(pt 0 112)
 		(output)
 		(text "leds_export[5..0]" (rect 0 0 66 12)(font "Arial" (font_size 8)))
@@ -47,16 +54,9 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 152)
 		(output)
-		(text "motor_export[5..0]" (rect 0 0 74 12)(font "Arial" (font_size 8)))
-		(text "motor_export[5..0]" (rect 4 141 112 152)(font "Arial" (font_size 8)))
+		(text "motor_export[3..0]" (rect 0 0 74 12)(font "Arial" (font_size 8)))
+		(text "motor_export[3..0]" (rect 4 141 112 152)(font "Arial" (font_size 8)))
 		(line (pt 0 152)(pt 128 152)(line_width 3))
-	)
-	(port
-		(pt 0 232)
-		(output)
-		(text "switches_export[5..0]" (rect 0 0 83 12)(font "Arial" (font_size 8)))
-		(text "switches_export[5..0]" (rect 4 221 130 232)(font "Arial" (font_size 8)))
-		(line (pt 0 232)(pt 128 232)(line_width 3))
 	)
 	(drawing
 		(text "clk" (rect 113 43 244 99)(font "Arial" (color 128 0 0)(font_size 9)))

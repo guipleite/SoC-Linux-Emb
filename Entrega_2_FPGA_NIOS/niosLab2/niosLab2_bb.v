@@ -2,13 +2,13 @@
 module niosLab2 (
 	clk_clk,
 	leds_export,
-	reset_reset_n,
 	motor_export,
+	reset_reset_n,
 	switches_export);	
 
 	input		clk_clk;
 	output	[5:0]	leds_export;
+	output	[3:0]	motor_export;
 	input		reset_reset_n;
-	output	[5:0]	motor_export;
-	output	[5:0]	switches_export;
+	input	[3:0]	switches_export;
 endmodule
