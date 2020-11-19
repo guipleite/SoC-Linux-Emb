@@ -1,13 +1,12 @@
 # export FLASK_APP=/work/app.py
 # python3 -m flask run -h 169.254.0.13
 
-from flask import Flask, render_template, request, Markup, flash
+from flask import Flask, render_template, request
 import subprocess
 import os
 
 
 app = Flask(__name__)
-app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 @app.route('/')
 def hello_world():
@@ -23,19 +22,14 @@ def toggle_led():
 @app.route('/check_sw', methods = ['GET', 'POST'])
 def check_sw():
     if request.method == 'POST':
-       
-        process = subprocess.Popen(['/work/read_switch'], stdout=subprocess.PIPE)
-        switch_state = int(process.communicate()[0])
-
-        if switch_state:
-            print("Switch is on")
-            
-            message = Markup("<h3>Switch is On</h3>")
-            flash(message)
-
+        # global sw_on
+        
+        if sw_on :
+            sw_on = False
+        
         else:
-            print("Switch is off")
-            message = Markup("<h3>Switch is Off</h3>")
-            flash(message)
+            sw_on = True
+
+        print("Switch State: ",sw_on)
 
     return render_template("form.html")
