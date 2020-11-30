@@ -8,6 +8,7 @@
 // LED Peripheral
 #define REG_DATA_OFFSET 1
 
+
 int main(void){
   unsigned int led = 0;
   unsigned int *p_led = (unsigned int *) PERIPHERAL_LED_0_BASE;
@@ -20,7 +21,7 @@ int main(void){
       if (led < 4){
           *(p_led+REG_DATA_OFFSET) = (0x1 << led++);
 #ifndef SIM
-          usleep(500000); // remover durante a simulação
+          usleep(500000); // remover durante a simulacao
 #endif
       }
       else{

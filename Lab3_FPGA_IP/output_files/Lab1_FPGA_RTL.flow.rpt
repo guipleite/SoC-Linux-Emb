@@ -1,6 +1,6 @@
 Flow report for Lab1_FPGA_RTL
-Sat Sep 19 22:49:47 2020
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Sun Nov 29 18:48:21 2020
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
 ---------------------
@@ -37,29 +37,29 @@ refer to the applicable agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Flow Summary                                                                  ;
-+---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat Sep 19 22:49:34 2020       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name                   ; Lab1_FPGA_RTL                               ;
-; Top-level Entity Name           ; TopLevel                                    ;
-; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CSXFC6D6F31C6                              ;
-; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 672 / 41,910 ( 2 % )                        ;
-; Total registers                 ; 933                                         ;
-; Total pins                      ; 5 / 499 ( 1 % )                             ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 273,408 / 5,662,720 ( 5 % )                 ;
-; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
-; Total HSSI RX PCSs              ; 0 / 9 ( 0 % )                               ;
-; Total HSSI PMA RX Deserializers ; 0 / 9 ( 0 % )                               ;
-; Total HSSI TX PCSs              ; 0 / 9 ( 0 % )                               ;
-; Total HSSI PMA TX Serializers   ; 0 / 9 ( 0 % )                               ;
-; Total PLLs                      ; 0 / 15 ( 0 % )                              ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
-+---------------------------------+---------------------------------------------+
++-----------------------------------------------------------------------------------+
+; Flow Summary                                                                      ;
++---------------------------------+-------------------------------------------------+
+; Flow Status                     ; Successful - Sun Nov 29 18:48:21 2020           ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                   ; Lab1_FPGA_RTL                                   ;
+; Top-level Entity Name           ; LAB2_FPGA_NIOS                                  ;
+; Family                          ; Cyclone V                                       ;
+; Device                          ; 5CSXFC6D6F31C6                                  ;
+; Timing Models                   ; Final                                           ;
+; Logic utilization (in ALMs)     ; 758 / 41,910 ( 2 % )                            ;
+; Total registers                 ; 976                                             ;
+; Total pins                      ; 13 / 499 ( 3 % )                                ;
+; Total virtual pins              ; 0                                               ;
+; Total block memory bits         ; 971,264 / 5,662,720 ( 17 % )                    ;
+; Total DSP Blocks                ; 0 / 112 ( 0 % )                                 ;
+; Total HSSI RX PCSs              ; 0 / 9 ( 0 % )                                   ;
+; Total HSSI PMA RX Deserializers ; 0 / 9 ( 0 % )                                   ;
+; Total HSSI TX PCSs              ; 0 / 9 ( 0 % )                                   ;
+; Total HSSI PMA TX Serializers   ; 0 / 9 ( 0 % )                                   ;
+; Total PLLs                      ; 0 / 15 ( 0 % )                                  ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                                   ;
++---------------------------------+-------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/19/2020 22:46:35 ;
+; Start date & time ; 11/29/2020 18:43:04 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Lab1_FPGA_RTL       ;
 +-------------------+---------------------+
@@ -75,28 +75,31 @@ refer to the applicable agreement for further details.
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Flow Non-Default Global Settings                                                                                                                   ;
-+-------------------------------------+-------------------------------------------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                                                             ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+-------------------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 10995770589192.160056639422032                                    ; --            ; --          ; --         ;
-; IP_SEARCH_PATHS                     ; c:\users\guipl\desktop\insper\embed\soc-linux-emb\lab3_fpga_ip\ip ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                                                ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                                                 ; --            ; --          ; --         ;
-; MISC_FILE                           ; niosLab2/synthesis/../niosLab2.cmp                                ; --            ; --          ; --         ;
-; MISC_FILE                           ; niosLab2/synthesis/../../niosLab2.qsys                            ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)                            ; --            ; TopLevel    ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                            ; --            ; TopLevel    ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                            ; --            ; TopLevel    ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                               ; --            ; --          ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                             ; --            ; --          ; --         ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                      ; --            ; --          ; --         ;
-; SLD_FILE                            ; niosLab2/synthesis/niosLab2.regmap                                ; --            ; --          ; --         ;
-; SLD_FILE                            ; niosLab2/synthesis/niosLab2.debuginfo                             ; --            ; --          ; --         ;
-; SLD_INFO                            ; QSYS_NAME niosLab2 HAS_SOPCINFO 1 GENERATION_ID 1600565934        ; --            ; niosLab2    ; --         ;
-; SOPCINFO_FILE                       ; niosLab2/synthesis/../../niosLab2.sopcinfo                        ; --            ; --          ; --         ;
-; SYNTHESIS_ONLY_QIP                  ; On                                                                ; --            ; --          ; --         ;
-; TOP_LEVEL_ENTITY                    ; TopLevel                                                          ; Lab1_FPGA_RTL ; --          ; --         ;
-+-------------------------------------+-------------------------------------------------------------------+---------------+-------------+------------+
++-------------------------------------+------------------------------------------------------------+---------------+----------------+----------------+
+; Assignment Name                     ; Value                                                      ; Default Value ; Entity Name    ; Section Id     ;
++-------------------------------------+------------------------------------------------------------+---------------+----------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 79602623270239.160668618405608                             ; --            ; --             ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                                ; --            ; --             ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                                  ; <None>        ; --             ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                                       ; --            ; --             ; eda_simulation ;
+; IP_SEARCH_PATHS                     ; /home/labarqcomp/SoC-Linux-Emb/Lab3_FPGA_IP/IP             ; --            ; --             ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                         ; --            ; --             ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                          ; --            ; --             ; --             ;
+; MISC_FILE                           ; niosLab2/synthesis/../niosLab2.cmp                         ; --            ; --             ; --             ;
+; MISC_FILE                           ; niosLab2/synthesis/../../niosLab2.qsys                     ; --            ; --             ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                     ; --            ; LAB2_FPGA_NIOS ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                     ; --            ; LAB2_FPGA_NIOS ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                     ; --            ; LAB2_FPGA_NIOS ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                        ; --            ; --             ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                      ; --            ; --             ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                               ; --            ; --             ; --             ;
+; SLD_FILE                            ; niosLab2/synthesis/niosLab2.regmap                         ; --            ; --             ; --             ;
+; SLD_FILE                            ; niosLab2/synthesis/niosLab2.debuginfo                      ; --            ; --             ; --             ;
+; SLD_INFO                            ; QSYS_NAME niosLab2 HAS_SOPCINFO 1 GENERATION_ID 1606684053 ; --            ; niosLab2       ; --             ;
+; SOPCINFO_FILE                       ; niosLab2/synthesis/../../niosLab2.sopcinfo                 ; --            ; --             ; --             ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                         ; --            ; --             ; --             ;
+; TOP_LEVEL_ENTITY                    ; LAB2_FPGA_NIOS                                             ; Lab1_FPGA_RTL ; --             ; --             ;
++-------------------------------------+------------------------------------------------------------+---------------+----------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -104,24 +107,26 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:07     ; 1.0                     ; 4971 MB             ; 00:01:38                           ;
-; Fitter               ; 00:01:36     ; 1.1                     ; 6804 MB             ; 00:04:59                           ;
-; Assembler            ; 00:00:10     ; 1.0                     ; 4855 MB             ; 00:00:09                           ;
-; Timing Analyzer      ; 00:00:11     ; 1.9                     ; 5217 MB             ; 00:00:18                           ;
-; Total                ; 00:03:04     ; --                      ; --                  ; 00:07:04                           ;
+; Analysis & Synthesis ; 00:00:57     ; 1.0                     ; 1212 MB             ; 00:00:48                           ;
+; Fitter               ; 00:01:42     ; 1.1                     ; 2703 MB             ; 00:01:58                           ;
+; Assembler            ; 00:01:42     ; 1.0                     ; 1017 MB             ; 00:00:07                           ;
+; Timing Analyzer      ; 00:00:39     ; 2.1                     ; 1309 MB             ; 00:00:13                           ;
+; EDA Netlist Writer   ; 00:00:36     ; 1.0                     ; 1194 MB             ; 00:00:03                           ;
+; Total                ; 00:05:36     ; --                      ; --                  ; 00:03:09                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-TSPEC20  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-TSPEC20  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-TSPEC20  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-TSPEC20  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++----------------------+------------------+----------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++----------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis ; soc-ssd          ; Ubuntu 18.04.5 ; 18         ; x86_64         ;
+; Fitter               ; soc-ssd          ; Ubuntu 18.04.5 ; 18         ; x86_64         ;
+; Assembler            ; soc-ssd          ; Ubuntu 18.04.5 ; 18         ; x86_64         ;
+; Timing Analyzer      ; soc-ssd          ; Ubuntu 18.04.5 ; 18         ; x86_64         ;
+; EDA Netlist Writer   ; soc-ssd          ; Ubuntu 18.04.5 ; 18         ; x86_64         ;
++----------------------+------------------+----------------+------------+----------------+
 
 
 ------------
@@ -131,6 +136,7 @@ quartus_map --read_settings_files=on --write_settings_files=off Lab1_FPGA_RTL -c
 quartus_fit --read_settings_files=off --write_settings_files=off Lab1_FPGA_RTL -c Lab1_FPGA_RTL
 quartus_asm --read_settings_files=off --write_settings_files=off Lab1_FPGA_RTL -c Lab1_FPGA_RTL
 quartus_sta Lab1_FPGA_RTL -c Lab1_FPGA_RTL
+quartus_eda --read_settings_files=off --write_settings_files=off Lab1_FPGA_RTL -c Lab1_FPGA_RTL
 
 
 

@@ -1,4 +1,4 @@
-22:51:41 **** Incremental Build of configuration Nios II for project niosLab ****
+15:38:18 **** Incremental Build of configuration Nios II for project niosLab ****
 make all 
 Info: Building ../niosLab_bsp/
 C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../niosLab_bsp/
@@ -6,14 +6,21 @@ C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-dir
 Info: Compiling hello_world.c to obj/default/hello_world.o
 nios2-elf-gcc -xc -MP -MMD -c -I../niosLab_bsp//HAL/inc -I../niosLab_bsp/ -I../niosLab_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED -DALTERA_AVALON_JTAG_UART_SMALL    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
 hello_world.c: In function 'main':
-hello_world.c:13:42: error: 'PERIPHERAL_LED_0_BASE' undeclared (first use in this function)
-   unsigned int *p_led = (unsigned int *) PERIPHERAL_LED_0_BASE;
-                                          ^
-hello_world.c:13:42: note: each undeclared identifier is reported only once for each function it appears in
-hello_world.c:23:11: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
-           usleep(500000); // remover durante a simulação
+hello_world.c:21:11: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+           usleep(50000);
            ^
-make: *** [obj/default/hello_world.o] Error 1
+hello_world.c: In function 'delay':
+hello_world.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Linking niosLab.elf
+nios2-elf-g++  -T'../niosLab_bsp//linker.x' -msys-crt0='../niosLab_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../niosLab_bsp/   -Wl,-Map=niosLab.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o niosLab.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert niosLab.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name niosLab2 --quartus_project_dir "C:/Users/guipl/Desktop/INSPER/embed/SoC-Linux-Emb/Lab2_FPGA_NIOS" --jdi ../..//output_files/Lab1_FPGA_RTL.jdi --sopcinfo C:/Users/guipl/Desktop/INSPER/embed/SoC-Linux-Emb/Lab2_FPGA_NIOS/software/niosLab_bsp/../../niosLab2.sopcinfo
+Info: (niosLab.elf) 20 KBytes program size (code + initialized data).
+Info:               8760 Bytes free for stack + heap.
+Info: Creating niosLab.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source niosLab.elf >niosLab.objdump
+[niosLab build complete]
 
-22:51:42 Build Finished (took 1s.133ms)
+15:38:20 Build Finished (took 1s.996ms)
 

@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Sat Sep 19 22:47:44 2020
-Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Sun Nov 29 18:43:30 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : Lab1_FPGA_RTL
-Top-level Entity Name : TopLevel
+Top-level Entity Name : LAB2_FPGA_NIOS
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 878
-Total pins : 5
+Total registers : 925
+Total pins : 13
 Total virtual pins : 0
-Total block memory bits : 273,408
+Total block memory bits : 971,264
 Total DSP Blocks : 0
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
